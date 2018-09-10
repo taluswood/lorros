@@ -1,6 +1,7 @@
 ---
-title: "Options One"
-date: "2018-08-25"
+title: Options One Test
+date: '2018-08-25'
+image: /assets/agenda.jpg
 ---
 
 Bacon ipsum dolor amet shoulder biltong capicola pork chop tongue fatback. Beef rump flank short ribs andouille tail. Cupim strip steak alcatra pork loin tri-tip, sausage ham brisket jowl shankle ribeye tongue fatback kevin. Rump buffalo filet mignon prosciutto.
