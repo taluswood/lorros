@@ -12,7 +12,7 @@ import Typography from '@material-ui/core/Typography'
 import IconButton from '@material-ui/core/IconButton'
 import Hidden from '@material-ui/core/Hidden'
 import MenuIcon from '@material-ui/icons/Menu'
-import Cyan from '@material-ui/core/colors/Cyan'
+import cyan from '@material-ui/core/colors/cyan'
 import NestedList from '../components/lists/NestedList'
 import logo from '../images/Lorros-nav-logo.png'
 
@@ -106,7 +106,7 @@ class TemplateWrapper extends React.Component {
     const { classes, theme, data, children } = this.props
     const theme1 = createMuiTheme({
       palette: {
-        primary: Cyan,
+        primary: cyan,
         secondary: {
           main: '#1565C0',
         },
