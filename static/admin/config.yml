@@ -1,0 +1,17 @@
+backend:
+  name: bitbucket
+  repo: blorriman/levelup-two
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - name: post
+    label: Posts
+    folder: src/posts
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: date, label: Created On, widget: date }
+      - { name: body, label: post, widget: markdown }
+      - { name: image, label: Image, widget: image }
