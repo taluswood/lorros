@@ -1,5 +1,5 @@
 ---
-title: Start a Discussion test
+title: Start a Discussion
 date: '2018-08-25'
 ---
 Any Group member can start a LORROS Discussion – it’s easy!
