@@ -31,7 +31,10 @@ const styles = theme => ({
   responsive: {
     maxWidth: '100%',
     height: 'auto'
-  }
+  },
+  link: {
+    textDecoration: 'none',
+  },
 })
 
 class IndexPage extends Component {
@@ -49,7 +52,7 @@ class IndexPage extends Component {
           top: 0,
           width: '100%',
           height: '100%',
-          opacity: 0.7,
+          // opacity: 0.7,
         }}
           sizes={data.background.sizes}
         />
