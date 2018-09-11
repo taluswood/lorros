@@ -64,7 +64,7 @@ class IndexPage extends Component {
               }}
                 sizes={data.whiteLogo.sizes}
               />
-              <Link to="/about/">
+              <Link to="/about/" className={classes.link}>
               <Button variant="contained" size="large" color="secondary" className={classes.button}>
                 Guide
               </Button>
