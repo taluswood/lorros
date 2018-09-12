@@ -27,7 +27,7 @@ const styles = theme => ({
   },
 })
 
-class GettingStarted extends Component {
+class Groups extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -43,44 +43,38 @@ class GettingStarted extends Component {
     return (
       <React.Fragment>
         <ListItem button onClick={this.handleClick} TouchRippleProps={{ classes: { child: classes.ripple } }}>
-          <ListItemText primary="Getting Started" />
+          <ListItemText primary="Groups" />
           {this.state.open ? <ExpandLess /> : <ExpandMore />}
         </ListItem>
         <Collapse in={this.state.open} timeout="auto" unmountOnExit>
           <List component="div" disablePadding className={classes.collapsedList} dense={true}>
-            <Link className={classes.links} to="/posts/GettingStarted/register/">
+            <Link className={classes.links} to="/posts/Groups/member-roles/">
               <ListItem button onClick={handleDrawer} className={classes.nested} TouchRippleProps={{ classes: { child: classes.ripple } }}>
-                <ListItemText inset primary="Register" />
+                <ListItemText inset primary="Member Categories & Rights" />
               </ListItem>
             </Link>
-
-            <Link className={classes.links} to="/posts/GettingStarted/start-group/">
+            
+            <Link className={classes.links} to="/posts/Groups/group-home-page/">
               <ListItem button onClick={this.props.handleDrawer} className={classes.nested} TouchRippleProps={{ classes: { child: classes.ripple } }}>
-                <ListItemText inset primary="Start a Group" />
+                <ListItemText inset primary="Group Home Page" />
               </ListItem>
             </Link>
-
-            <Link className={classes.links} to="/posts/GettingStarted/invite-members/">
+            
+            <Link className={classes.links} to="/posts/Groups/current-activities/">
               <ListItem button onClick={this.props.handleDrawer} className={classes.nested} TouchRippleProps={{ classes: { child: classes.ripple } }}>
-                <ListItemText inset primary="Invite Members" />
+                <ListItemText inset primary="Current Activities" />
               </ListItem>
             </Link>
-
-            <Link className={classes.links} to="/posts/GettingStarted/trial-period/">
+            
+            <Link className={classes.links} to="/posts/Groups/start-activity/">
               <ListItem button onClick={this.props.handleDrawer} className={classes.nested} TouchRippleProps={{ classes: { child: classes.ripple } }}>
-                <ListItemText inset primary="Trial Period" />
+                <ListItemText inset primary="Start an Activity" />
               </ListItem>
             </Link>
-
-            <Link className={classes.links} to="/posts/GettingStarted/accept-invitation/">
+            
+            <Link className={classes.links} to="/posts/Groups/dashboard/">
               <ListItem button onClick={this.props.handleDrawer} className={classes.nested} TouchRippleProps={{ classes: { child: classes.ripple } }}>
-                <ListItemText inset primary="Accept an Invitation" />
-              </ListItem>
-            </Link>
-
-            <Link className={classes.links} to="/posts/GettingStarted/guest-links/">
-              <ListItem button onClick={this.props.handleDrawer} className={classes.nested} TouchRippleProps={{ classes: { child: classes.ripple } }}>
-                <ListItemText inset primary="Guest Links" />
+                <ListItemText inset primary="Group Dashboard" />
               </ListItem>
             </Link>
 
@@ -91,9 +85,9 @@ class GettingStarted extends Component {
   }
 }
 
-GettingStarted.propTypes = {
+Groups.propTypes = {
   classes: PropTypes.object.isRequired,
   handleDrawer:  PropTypes.func.isRequired,
 }
 
-export default withStyles(styles)(GettingStarted)
+export default withStyles(styles)(Groups)

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Sample',
-    desc: 'Sample Online Manual'
+    title: 'LORROS User Guide',
+    desc: 'LORROS Online Manual'
   },
   plugins: [
     'gatsby-plugin-react-helmet',

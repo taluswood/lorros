@@ -12,10 +12,14 @@ import SearchIcon from '@material-ui/icons/Search'
 import Divider from '@material-ui/core/Divider'
 import TextField from '@material-ui/core/TextField'
 import InputAdornment from '@material-ui/core/InputAdornment'
-import NestedOne from './NestedOne'
-import NestedTwo from './NestedTwo'
 import GettingStarted from './GettingStarted'
+import Groups from './Groups'
 import Discussions from './Discussions'
+import Meetings from './Meetings'
+import Polls from './Polls'
+import Actions from './Actions'
+import Activities from './Activities'
+import Misc from './Misc'
 
 const styles = theme => ({
   root: {
@@ -50,9 +54,9 @@ const styles = theme => ({
     margin: theme.spacing.unit,
   },
   search: {
-    paddingLeft: theme.spacing.unit * 4,
-    paddingTop: theme.spacing.unit * 1,
-    paddingBottom: theme.spacing.unit * 1,
+    // paddingLeft: theme.spacing.unit,
+    // paddingTop: theme.spacing.unit * 1,
+    // paddingBottom: theme.spacing.unit * 1,
   },
 })
 
@@ -76,7 +80,7 @@ class NestedList extends React.Component {
         <div className={classes.navHeader}>
           <TextField
             id="input-with-icon-textfield"
-            // className={classes.search}
+            className={classes.search}
             InputProps={{
               startAdornment: (
                 <InputAdornment
@@ -95,9 +99,13 @@ class NestedList extends React.Component {
             </ListItem>
           </Link>
           <GettingStarted handleDrawer={this.props.handleDrawer} />
+          <Groups handleDrawer={this.props.handleDrawer} />
           <Discussions handleDrawer={this.props.handleDrawer} />
-          <NestedTwo handleDrawer={this.props.handleDrawer} />
-          <NestedOne />
+          <Meetings handleDrawer={this.props.handleDrawer} />
+          <Polls handleDrawer={this.props.handleDrawer} />
+          <Actions handleDrawer={this.props.handleDrawer} />
+          <Activities handleDrawer={this.props.handleDrawer} />
+          <Misc handleDrawer={this.props.handleDrawer} />
         </List>
       </div>
     )
