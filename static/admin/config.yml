@@ -46,3 +46,35 @@ collections:
       - { name: title, label: Title }
       - { name: date, label: Created On, widget: date }
       - { name: body, label: post, widget: markdown }
+  - name: polls
+    label: Polls
+    folder: src/posts/Polls
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: date, label: Created On, widget: date }
+      - { name: body, label: post, widget: markdown }
+  - name: actions
+    label: Actions
+    folder: src/posts/Actions
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: date, label: Created On, widget: date }
+      - { name: body, label: post, widget: markdown }
+  - name: activities
+    label: Activities
+    folder: src/posts/Activities
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: date, label: Created On, widget: date }
+      - { name: body, label: post, widget: markdown }
+  - name: misc
+    label: Misc
+    folder: src/posts/Misc
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: date, label: Created On, widget: date }
+      - { name: body, label: post, widget: markdown }
