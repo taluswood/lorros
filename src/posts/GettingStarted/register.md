@@ -8,7 +8,7 @@ We require your email address, full name and password _(must be at least 6 chara
 
 > _you can change your email, name and password at any time on your home page from the Edit Profile menu_
 
-![register](/assets/register.gif "register")
+![null](https://s3.ca-central-1.amazonaws.com/lorros2.data/onlineManual/register.gif)
 
 Then fill in the registration form, you will be required to confirm your email to complete the registration.
 
@@ -18,6 +18,6 @@ Then fill in the registration form, you will be required to confirm your email t
 It’s OK – we all forget our passwords from time to time.
 From the **Log In** page, click the **Forgot Your Password** link and fill in your email.
 
-![register](/assets/register.gif "register")
+![null](https://s3.ca-central-1.amazonaws.com/lorros2.data/onlineManual/forgot-password.gif)
 
 > _if you have multiple email addresses, you can register with LORROS as a different user with each email address. This can be helpful if you wish to use a different email address with different Groups. However, when you login, make sure you are using the correct email address for the Group you are accessing_

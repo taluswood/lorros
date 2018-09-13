@@ -8,4 +8,4 @@ The email also includes a button to register with LORROS _(if they are not alrea
 
 > _There are two types of invitations – to join a Group or to join a Discussion (see Guest Links)_
 
-![](/assets/accept-invite.png)
+![accept invitation](https://s3.ca-central-1.amazonaws.com/lorros2.data/onlineManual/accept-invite.png "accept invitation")
